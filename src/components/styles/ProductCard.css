@@ -1,0 +1,26 @@
+.productCard {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    height: auto;
+    background: var(--white, #fff);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    /* ...otros estilos si es necesario... */
+}
+
+.productCard > img {
+    width: 50%;
+    max-width: 720px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.productCard_info{
+    margin: 32px;
+    color: var(--grey);
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
