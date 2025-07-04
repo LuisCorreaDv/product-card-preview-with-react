@@ -1,7 +1,7 @@
 .productCard {
   display: flex;
   flex-direction: row;
-  max-width: 780px;
+  max-width: 680px;
   height: 580px;
   background: var(--white, #fff);
   border-radius: 16px;
@@ -11,14 +11,14 @@
 
 .productCard > img {
   width: 50%;
-  max-width: 720px;
+  max-width: 680px;
   height: auto;
   object-fit: cover;
   display: block;
 }
 
 .productCard_info {
-  margin: 32px;
+  margin: 2.8rem;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -36,4 +36,9 @@
     line-height: 1.1;
     margin: 0;
     font-family: var(--font-fraunces);
+}
+
+.productCard_info_text{
+    font-size: 14px;
+    color: var(--grey);
 }
