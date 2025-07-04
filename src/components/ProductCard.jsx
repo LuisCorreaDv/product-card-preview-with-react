@@ -8,6 +8,10 @@ export default function ProductCard() {
                 <span className='productCard_info_header'>Perfume</span>
                 <h1 className='productCard_info_title'>Gabrielle Essence Eau De Parfum</h1>
                 <p className='productCard_info_text'>A floral, solar and voluptuous interpretation composed by <br /> Oliver Polge, Perfumer-Creater for the House of CHANEL.</p>
+                <section className='productCard_info_price'>
+                    <h2 className='price_main'>$149.99</h2>
+                    <span className='price_crossed'>$169.99</span>
+                </section>
             </article>
         </section>
     );

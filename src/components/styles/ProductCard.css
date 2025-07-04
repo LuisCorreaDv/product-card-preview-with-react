@@ -42,3 +42,21 @@
     font-size: 14px;
     color: var(--grey);
 }
+
+.productCard_info_price {
+    display: flex;
+    align-items: center;
+}
+
+.price_main{
+    font-size: 2rem;
+    color: var(--green-500);
+    font-family: var(--font-fraunces);
+    margin: 0;
+}
+
+.price_crossed {
+    margin-left: 16px;
+    text-decoration: line-through;
+    color: var(--grey);
+}
