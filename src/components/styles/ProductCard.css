@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   max-width: 680px;
-  height: 580px;
+  height: 540px;
   background: var(--white, #fff);
   border-radius: 16px;
   overflow: hidden;
@@ -59,4 +59,19 @@
     margin-left: 16px;
     text-decoration: line-through;
     color: var(--grey);
+}
+
+.productCard_btn {
+    background-color: var(--green-700);
+    padding: 12px;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 14px;
+    border: none;
+    margin-top: 1.2rem;
+}
+
+.productCard_btn:hover{
+    cursor: pointer;
+    background-color: var(--green-500);
 }

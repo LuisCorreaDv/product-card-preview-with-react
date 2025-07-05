@@ -1,4 +1,5 @@
 import './styles/ProductCard.css';
+import iconCart from '../assets/images/icon-cart.svg';
 
 export default function ProductCard() {
     return (
@@ -12,6 +13,10 @@ export default function ProductCard() {
                     <h2 className='price_main'>$149.99</h2>
                     <span className='price_crossed'>$169.99</span>
                 </section>
+                <button className='productCard_btn'>
+                    <img src={iconCart} alt="Cart icon" style={{marginRight: '8px', verticalAlign: 'middle'}} />
+                    Add to Cart
+                </button>
             </article>
         </section>
     );
