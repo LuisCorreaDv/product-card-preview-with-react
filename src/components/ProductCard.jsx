@@ -1,11 +1,9 @@
 import './styles/ProductCard.css';
-import iconCart from '../assets/images/icon-cart.svg';
-import productImage from '../assets/images/image-product-desktop.jpg';
 
 export default function ProductCard() {
     return (
         <section className="productCard">
-            <img src={productImage} alt="Product image" />
+            <img src="/assets/images/image-product-desktop.jpg" alt="Product image" />
             <article className="productCard_info">
                 <span className='productCard_info_header'>Perfume</span>
                 <h1 className='productCard_info_title'>Gabrielle Essence Eau De Parfum</h1>
@@ -15,11 +13,10 @@ export default function ProductCard() {
                     <span className='price_crossed'>$169.99</span>
                 </section>
                 <button className='productCard_btn'>
-                    <img src={iconCart} alt="Cart icon" style={{marginRight: '8px', verticalAlign: 'middle'}} />
+                    <img src="/assets/images/icon-cart.svg" alt="Cart icon" style={{marginRight: '8px', verticalAlign: 'middle'}} />
                     Add to Cart
                 </button>
             </article>
         </section>
     );
 }
-
